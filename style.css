@@ -547,7 +547,7 @@ h1 {
 }
 
 .info__first {
-    width: 450px;
+    max-width: 450px;
     height: 300px;
     background-color: #100F0F;
     color: #FCFBFA;
@@ -565,7 +565,7 @@ h1 {
 }
 
 .info__second {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     margin-left: 50px;
 }
@@ -577,4 +577,100 @@ h1 {
 
 .info__second li {
     font-size: 14px;
+}
+
+/* coldBottox */
+
+.coldBottox {
+    margin-top: 170px;
+}
+
+.coldBottox__block {
+    height: 800px;
+    background-image: url('img/coldBottox.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Playfair Display;
+    margin: 80px 0 50px;
+}
+
+.information__first {
+    max-width: 400px;
+    height: 300px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.main-text {
+    margin: 0;
+    font-weight: 500;
+}
+
+.coldBottox__main {
+    width: 700px;
+    background-color: #FCFBFA;
+    padding: 20px;
+    height: 200px;
+    margin-top: 70px;
+}
+
+.subtext {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.coldBottox__title {
+    line-height: 1;
+}
+
+.coldBottox__main h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.coldBottox__main p {
+    font-size: 14px;
+}
+
+.information__first h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.information__first h6 {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.information__first ul {
+    margin-left: 18px;
+} 
+.information__first li {
+    font-size: 14px;
+}
+
+.information__second {
+   max-width: 500px;
+   height: 270px;
+   background-color: #100F0F;
+   padding: 20px;
+   color: #FCFBFA;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button-coldBottox {
+    margin-left: 100px;
 }

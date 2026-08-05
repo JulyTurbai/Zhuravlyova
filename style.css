@@ -674,3 +674,72 @@ h1 {
 .button-coldBottox {
     margin-left: 100px;
 }
+
+/* materials */
+
+.materials {
+    margin-top: 170px;
+}
+
+.materials__block {
+    height: 832px;
+    background-image: url('img/farba.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.materials__photo {
+    margin-right: 100px;
+}
+
+.materials__photo img{
+    width: 500px;
+}
+
+.materials__main {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.materials__decor {
+    width: 200px;
+}
+
+.materials__title {
+    border: 1px solid #100F0F;
+    width: 320px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materials__text {
+    border: 2px solid #100F0F;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.materials__text p {
+    font-weight: bold;
+}
+
+.materials__about{
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Playfair Display;
+}
+

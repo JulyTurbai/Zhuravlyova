@@ -428,3 +428,97 @@ h1 {
     top: 0;
     right: 0;
 }
+
+
+/* colorist */
+
+.colorist {
+    margin-top: 170px;
+}
+
+.colorist__main-decor {
+    width: 350px;
+}
+
+.colorist__main {
+    max-width: 800px;
+    height: 150px;
+    border: 1px solid #100F0F;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #FCFBFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.colorist__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colorist__main p {
+    max-width: 760px;
+    height: 120px;
+    padding: 10px;
+    border: 2px solid #100F0F;
+    font-weight: bold;
+}
+.colorist__block {
+    height: 900px;
+    background-image: url('img/colorist1.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.colorist__middle {
+    max-width: 600px;
+    height: 270px;
+    background-color: #FCFBFA;
+    font-size: 14px;
+    margin: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorist__last {
+    max-width: 800px;
+    height: 100px;
+    background-color: #FCFBFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.colorist__last p {
+     font-weight: 500;
+}
+
+.button-colorist {
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+/* hotBottox */
+
+.hotBottox {
+    margin-top: 170px;
+}
+
+.hotBottox__block {
+    height: 900px;
+    background-image: url('img/hotBottox.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

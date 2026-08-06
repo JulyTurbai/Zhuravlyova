@@ -352,6 +352,130 @@ h1 {
   cursor: pointer;
 }
 
+/* hero media */
+@media(max-width: 1120px) {
+    .hero__block {
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 1050px) {
+    
+    .photo img {
+        width: 73%;
+    }
+
+    .hero__left {
+        width: 421px;
+    }
+
+    .button-hero {
+        margin-left: 49px;
+        margin-top: 1px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+
+    .images {
+        max-width: 400px;
+        height: 404px;
+        margin-bottom: -19px;
+    }
+}
+
+@media(max-width: 880px) {
+    .hero {
+        margin-top: 60px;
+    }
+    .hero__left {
+        margin-right: 50px;
+    }
+
+    .photo {
+        max-width: 500px;
+        height: 410px;
+    }
+     .hero__main-text {
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .hero__main-text p {
+        font-size: 13px;
+    }
+    .images {
+        height: 375px;
+    }
+}
+
+@media(max-width: 800px) {
+    .hero__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero__left {
+        margin-bottom: 80px;
+        margin-right: 0;
+        width: 470px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .hero__main-text p {
+        font-size: 15px;
+    }
+     .hero__main-text {
+        margin-bottom: 50px;
+    }
+    .button__border {
+        width: 290px;
+        height: 60px;
+    }
+    .button__main {
+    font-size: 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .hero__left {
+        width: 355px;
+        margin-bottom: 50px;
+    }
+    .photo img {
+        width: 80%;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .hero__main-text p {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .button-hero {
+        margin-left: 11px;
+    }
+}
+
 
 /* experience */
 

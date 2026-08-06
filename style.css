@@ -146,6 +146,21 @@ h1 {
   height: auto;
 }
 
+/* header media */
+
+@media(max-width: 1050px) {
+    .decor img {
+        max-width: 280px;
+    }
+    .decor--rotate img {
+        max-width: 280px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
 /* hero */
 
 .hero {

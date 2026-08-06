@@ -150,14 +150,14 @@ h1 {
 
 @media(max-width: 1050px) {
     .decor img {
-        max-width: 280px;
+        max-width: 200px;
     }
     .decor--rotate img {
-        max-width: 280px;
+        max-width: 200px;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 

@@ -457,6 +457,9 @@ h1 {
     .photo img {
         width: 80%;
     }
+    h1 {
+        font-size: 25px;
+    }
     h2 {
         font-size: 22px;
     }
@@ -473,6 +476,12 @@ h1 {
     }
     .button-hero {
         margin-left: 11px;
+    }
+    .decor img {
+        max-width: 180px;
+    }
+    .decor--rotate img {
+        max-width: 180px;
     }
 }
 

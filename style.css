@@ -878,6 +878,7 @@ h1 {
         max-width: 350px;
         padding: 30px;
         padding-top: 0;
+        margin-bottom: 20px;
     }
     .hotBottox__block {
         height: 900px;
@@ -885,11 +886,13 @@ h1 {
 }
 
 @media(max-width: 750px) {
+    .hotBottox {
+        margin-top: 100px;
+    }
     .button-hotBottox {
         margin: 0 auto;
+        margin-top: 30px;
     }
-}
-@media(max-width: 710px) {
     .info {
         display: flex;
         max-width: 400px;
@@ -899,10 +902,15 @@ h1 {
     }
     .info__first {
         margin-bottom: 20px;
+        font-size: 15px;
+        min-height: 350px;
     }
     .info__second {
         margin-left: 0;
         max-width: 450px;
+    }
+    .info__second li {
+        font-size: 16px;
     }
     .hotBottox__block {
         height: 900px;
@@ -910,6 +918,9 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
+}
+@media(max-width: 710px) {
+    
     
 }
 

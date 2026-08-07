@@ -577,10 +577,10 @@ h1 {
 
 @media(max-width: 980px) {
     .experience__main {
-       background-color: rgba(252, 251, 250, 0.565);             
+       background-color: rgba(252, 251, 250, 0.642);             
     }
     .experience__title {
-     background-color: rgba(252, 251, 250, 0.565);  
+     background-color: rgba(252, 251, 250, 0.642);      
     }
 }
 
@@ -615,6 +615,10 @@ h1 {
         padding: 0;
         margin-top: 10px;
     }
+    .experience__card {
+        padding: 15px;
+        height: 530px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -628,11 +632,11 @@ h1 {
     font-size: 22px;
     }
     .experience__title {
-        width: 280px;
+        width: 330px;
         margin: 0 auto;
     }
     .experience__card {
-        margin-top: 70px;
+        margin-top: 110px;
     }
     .experience__list {
     padding: 30px;

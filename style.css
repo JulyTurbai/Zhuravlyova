@@ -776,10 +776,13 @@ h1 {
         align-items: center;
     }
     @media(max-width: 510px) {
-
-        .colorist__block { 
+    .colorist__block { 
         background-size: 850px;
         }
+    }
+    .colorist__middle {
+        font-size: 15px;
+        padding: 15px;
     }
 }
 

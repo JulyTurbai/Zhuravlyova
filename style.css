@@ -648,7 +648,7 @@ h1 {
         max-width: 190px;
     }
     .experience__title h2 {
-    font-size: 22px;
+        font-size: 22px;
     }
     .experience__title {
         width: 330px;
@@ -656,7 +656,7 @@ h1 {
         margin: 0 auto;
     }
     .experience__card {
-        margin-top: 110px;
+        margin-top: 100px;
     }
     .experience__list {
     padding: 30px;
@@ -759,6 +759,7 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-size: 750px;
     }
     .button-colorist {
         margin-right: 0;
@@ -775,12 +776,13 @@ h1 {
         justify-content: center;
         align-items: center;
     }
-    @media(max-width: 510px) {
+}
+
+@media(max-width: 510px) {
     .colorist__block { 
-        background-size: 850px;
+        background-size: 865px;
         }
-    }
-    .colorist__middle {
+        .colorist__middle {
         font-size: 15px;
         padding: 15px;
     }
@@ -793,9 +795,9 @@ h1 {
 }
 
 .hotBottox__block {
-    height: 800px;
+    max-height: 800px;
     background-image: url('img/hotBottox.png');
-    background-size: 620px;
+    background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -814,7 +816,7 @@ h1 {
     max-width: 800px;
     background-color: #FCFBFA;
     height: 250px;
-    padding: 20px;
+    padding: 25px;
     font-size: 14px;
 }
 
@@ -828,7 +830,7 @@ h1 {
 
 .info__first {
     max-width: 450px;
-    height: 300px;
+    min-height: 300px;
     background-color: #100F0F;
     color: #FCFBFA;
     font-size: 13px;
@@ -858,6 +860,59 @@ h1 {
 .info__second li {
     font-size: 14px;
 }
+.button-hotBottox {
+    margin-right: 100px;
+}
+
+/* hotBottox media */
+
+@media(max-width: 1040px) {
+    .hotBottox__title {
+        padding: 15px;
+        min-height: 170px;
+        background-color: rgba(252, 251, 250, 0.693);  
+        margin: 30px;
+    }
+    .info__second {
+        background-color: rgba(252, 251, 250, 0.693);  
+        max-width: 350px;
+        padding: 30px;
+        padding-top: 0;
+    }
+    .hotBottox__block {
+        height: 900px;
+    }
+}
+
+@media(max-width: 750px) {
+    .button-hotBottox {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 710px) {
+    .info {
+        display: flex;
+        max-width: 400px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+    }
+    .info__first {
+        margin-bottom: 20px;
+    }
+    .info__second {
+        margin-left: 0;
+        max-width: 450px;
+    }
+    .hotBottox__block {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
 
 /* coldBottox */
 
